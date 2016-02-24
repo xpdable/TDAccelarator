@@ -57,7 +57,7 @@
 	       		 <archive>
       				<manifest>
       					<addClasspath>true</addClasspath>
-      					<mainClass>com.thomsonreuters.jiraConnector.ConnectorEntry</mainClass>
+      					<mainClass>xpxpxp.top.tdaccelarator.App</mainClass>
       				</manifest>
       			</archive>
 	          <descriptorRefs>

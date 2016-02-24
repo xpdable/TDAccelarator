@@ -27,15 +27,12 @@ public class App
     	String table = "";
     	
 //        System.out.println( "Hello TD!" );
-    	if(args[0] == null || args[1] == null){
-    		//backdoor for myself
-        	db = "C:/Program Files (x86)/Thunder Network/Thunder/Profiles/TaskDB.dat";
-        	table = "AccelerateTaskMap27566689_superspeed_1_1";
-    		
-    	}else{
-    		db = args[0];
-    		table = args[1];
-    	}
+			db = args[0];
+			table = args[1];
+			
+//    		db = "C:/Program Files (x86)/Thunder Network/Thunder/Profiles/TaskDB.dat";
+//	    	table = "AccelerateTaskMap27566689_superspeed_1_1";
+
     	
         
         Connection connection = null;
